@@ -1,0 +1,36 @@
+GET https://my-employee-api-final.herokuapp.com/api/employees 
+
+###
+
+POST  https://my-employee-api-final.herokuapp.com/api/employees 
+
+Content-Type: application/json
+
+ {
+        "Name": "ad,",
+        "DateOfBirth": "12/12/2002",
+        "Gender": "male",
+  "Salary": 30000
+    }
+####
+POST   http://localhost:4000/api/employees 
+
+
+Content-Type: application/json
+
+{
+    "Name": "John",
+    
+    "Gender": "New York",
+   
+}
+
+###
+GET   http://localhost:4000/api/employees 
+
+PUT   http://localhost:3000/edite:1
+
+###
+DELETE    http://localhost:3000/remove:1
+
+
